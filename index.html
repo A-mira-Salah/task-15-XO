@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>XO</title>
+</head>
+<body>
+
+     
+
+
+    <div class="start">
+        <h1><span>X O</span>  Game</h1>
+        <img src="/images/566294.png" alt="">
+        <h2> play with your friend  😉</h2>
+        <!-- <div class="player1">
+        <label for="">player 1</label>
+        <input type="text" placeholder="player1 Name">
+        </div>
+        <div class="player2">
+        <label for="">player 2</label>
+        <input type="text" placeholder="player2 Name">
+        </div> -->
+        <button class="playBtn" type="submit" onclick="play()">Play</button>
+    </div>
+
+    
+        <div class="game">
+            <div class="title"><span>X O</span>  GAME</div>
+
+            <div class="square" id="item1" onclick="game(this.id)"></div>
+            <div class="square" id="item2" onclick="game(this.id)"></div>
+            <div class="square" id="item3" onclick="game(this.id)"></div>
+
+            <div class="square" id="item4" onclick="game(this.id)"></div>
+            <div class="square" id="item5" onclick="game(this.id)"></div>
+            <div class="square" id="item6" onclick="game(this.id)"></div>
+
+
+            <div class="square" id="item7" onclick="game(this.id)"></div>
+            <div class="square" id="item8" onclick="game(this.id)"></div>
+            <div class="square" id="item9" onclick="game(this.id)"></div>
+            <button class="reloadBtn" onclick="setTimeout(function ( ){location.reload()},0);">Try Again</button>
+        </div>
+
+
+        <script src="main.js"></script>
+</body>
+</html>

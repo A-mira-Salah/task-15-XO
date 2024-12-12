@@ -1,0 +1,94 @@
+
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+
+}
+.game{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: white;
+    margin: auto;
+    margin-top: 5rem;
+    display: none;
+
+}
+.title{
+    background-color: rgba(29, 106, 194, 0.726);
+    padding: 0.5rem 0rem;
+    margin: 1rem 0rem;
+    border-radius: 10px;
+}
+span{
+    color:hsl(40, 100%, 51%);
+    font-weight: bold;
+}
+.square {
+    width: 80px ;
+    height: 80px;
+    /* background-color: rgb(59, 48, 52); */
+    float: left;
+    /* margin: 1px; */
+    font-size:50px ;
+    color: black;
+    border: 2px solid hsl(40, 100%, 51%);
+    /* border: 2px solid rgb(4, 4, 114); */
+
+
+
+
+}
+.square:hover{
+    background-color: hsla(40, 94%, 50%, 0.171);
+    cursor: pointer;
+}
+
+.reloadBtn ,.playBtn{
+    background-color: rgba(29, 106, 194, 0.726);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 0.7rem;
+
+}
+.reloadBtn:hover,.playBtn:hover{
+    cursor: pointer;
+    background-color: rgba(37, 126, 228, 0.726);
+
+}
+
+.start {
+    
+    width: 20rem;
+    text-align: center;
+    font-family: system-ui;
+    margin: auto;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+    color: black;
+}
+
+.start div {
+    margin: 1rem 0rem;
+ }
+/* 
+
+.start div label{
+    display: block;
+    margin-right: 7rem;
+    color: black;
+}
+.start div input{
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+.start div input:focus{
+    border: 1px solid hsl(40, 100%, 51%);} */
+
+.start img{
+    width: 50%;
+}
